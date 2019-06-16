@@ -18,6 +18,8 @@
 		AA10B33A22B680E100272D45 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33922B680E100272D45 /* GameController.swift */; };
 		AA10B33C22B6815100272D45 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33B22B6815100272D45 /* Level.swift */; };
 		AA10B33E22B681BA00272D45 /* WordSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33D22B681BA00272D45 /* WordSet.swift */; };
+		AA10B34022B6853C00272D45 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33F22B6853C00272D45 /* TimerView.swift */; };
+		AA10B34222B6855600272D45 /* ScorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B34122B6855600272D45 /* ScorerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		AA10B33922B680E100272D45 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		AA10B33B22B6815100272D45 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		AA10B33D22B681BA00272D45 /* WordSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSet.swift; sourceTree = "<group>"; };
+		AA10B33F22B6853C00272D45 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		AA10B34122B6855600272D45 /* ScorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 		AA10B33322B67FDA00272D45 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA10B33F22B6853C00272D45 /* TimerView.swift */,
+				AA10B34122B6855600272D45 /* ScorerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10B34022B6853C00272D45 /* TimerView.swift in Sources */,
 				AA10B30822B67F4200272D45 /* ViewController.swift in Sources */,
+				AA10B34222B6855600272D45 /* ScorerView.swift in Sources */,
 				AA10B33A22B680E100272D45 /* GameController.swift in Sources */,
 				AA10B33C22B6815100272D45 /* Level.swift in Sources */,
 				AA10B30622B67F4200272D45 /* AppDelegate.swift in Sources */,

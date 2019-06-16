@@ -11,6 +11,7 @@ import Foundation
 class GameController {
     let wordSet : WordSet
     var level : Level
+    var points : Int = 0
     var querySet:(queryIndex:Int,randomIndex:Int,toss:Bool)?
     init() {
         self.wordSet = WordSet();
@@ -32,12 +33,18 @@ class GameController {
         return (queryIndex,randromIndex,coinToss);
     }
     
-    func checkSolution(isCorrect:Bool){
+    func checkSolution(isCorrect:Bool) -> Bool{
         if(isCorrect == querySet?.toss){
-            print("right option")
-        }else{
-            print("wrong option")
+            points += level.currentPoints
+            return true
         }
+        points -= level.currentPoints/2
+        return false
+    }
+    
+    func answerSkipped() -> Int{
+        points =  points - (level.currentLevel+1)*2
+        return points
     }
 }
 
