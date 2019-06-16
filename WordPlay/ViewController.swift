@@ -214,7 +214,6 @@ class ViewController: UIViewController,InfoViewDelegate {
             }
         }
         gameControl.setQuerySet()
-        print(gameControl.points)
         queryLabel.text = gameControl.wordSet.wordList[gameControl.querySet!.queryIndex].textEnglish
         
         let answerLabelText = gameControl.querySet!.toss ?  gameControl.wordSet.wordList[gameControl.querySet!.queryIndex].textSpanish : gameControl.wordSet.wordList[gameControl.querySet!.randomIndex].textSpanish

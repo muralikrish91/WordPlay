@@ -66,14 +66,12 @@ class GameController {
         switch level.currentLevel {
         case 1:
             if points>=50{
-                print("Level change")
                 level.setLevel(level: 2)
                 wrongAnswerCount = 0
                 return true
             }
         case 2:
             if points>=120{
-                print("Level change")
                 level.setLevel(level: 3)
                 wrongAnswerCount = 0
                 return true

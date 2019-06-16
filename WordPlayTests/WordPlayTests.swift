@@ -60,7 +60,6 @@ class WordPlayTests: XCTestCase {
     
     func testIfWordSetIsAvailable() {
         let wordList = gameControlObj.wordSet.wordList
-        print(wordList.count)
         XCTAssert(wordList.count == 297, "Wordlist array not matched")
     }
     
