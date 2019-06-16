@@ -27,7 +27,6 @@ class GameController {
         var randromIndex = Int.random(in: 0..<from)
         while (randromIndex == queryIndex){
             randromIndex = Int.random(in: 0..<from)
-            print("Inside while loop")
         }
         let coinToss = Bool.random()
         return (queryIndex,randromIndex,coinToss);

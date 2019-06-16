@@ -10,7 +10,7 @@ import Foundation
 
 class Level {
     let pointsArray = [10,20,30]
-    let timeArray = [100,80,60]
+    let timeArray = [10,8,6]
     var currentLevel:Int = 0
     var currentPoints:Int!
     var currentTimeInterval:Int!

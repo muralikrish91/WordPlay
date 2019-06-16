@@ -20,6 +20,8 @@
 		AA10B33E22B681BA00272D45 /* WordSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33D22B681BA00272D45 /* WordSet.swift */; };
 		AA10B34022B6853C00272D45 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33F22B6853C00272D45 /* TimerView.swift */; };
 		AA10B34222B6855600272D45 /* ScorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B34122B6855600272D45 /* ScorerView.swift */; };
+		AA10B34522B68B3D00272D45 /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34422B68B3D00272D45 /* Comic_Andy.ttf */; };
+		AA10B34722B68E6300272D45 /* Pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34622B68E6300272D45 /* Pattern.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		AA10B33D22B681BA00272D45 /* WordSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSet.swift; sourceTree = "<group>"; };
 		AA10B33F22B6853C00272D45 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AA10B34122B6855600272D45 /* ScorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorerView.swift; sourceTree = "<group>"; };
+		AA10B34422B68B3D00272D45 /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comic_Andy.ttf; sourceTree = "<group>"; };
+		AA10B34622B68E6300272D45 /* Pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pattern.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,9 +174,19 @@
 		AA10B33622B6801100272D45 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA10B34422B68B3D00272D45 /* Comic_Andy.ttf */,
+				AA10B34322B68AFF00272D45 /* Images */,
 				AA10B33722B6804F00272D45 /* words.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA10B34322B68AFF00272D45 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA10B34622B68E6300272D45 /* Pattern.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +295,10 @@
 			files = (
 				AA10B31022B67F4300272D45 /* LaunchScreen.storyboard in Resources */,
 				AA10B33822B6804F00272D45 /* words.json in Resources */,
+				AA10B34722B68E6300272D45 /* Pattern.png in Resources */,
 				AA10B30D22B67F4300272D45 /* Assets.xcassets in Resources */,
 				AA10B30B22B67F4200272D45 /* Main.storyboard in Resources */,
+				AA10B34522B68B3D00272D45 /* Comic_Andy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
