@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol InfoViewDelegate {
+protocol InfoViewDelegate : class {
     func restartButtonTapped()
 }
 
@@ -20,7 +20,7 @@ enum GameMode {
 class InfoView: UIView {
     let kCONTENT_XIB_NAME = "InfoView"
     @IBOutlet var contentView: UIView!
-    var delegate:InfoViewDelegate?
+    weak var delegate:InfoViewDelegate?
     var state:GameMode = .start {
         didSet{
             switch state {
