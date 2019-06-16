@@ -44,6 +44,7 @@ class ViewController: UIViewController,InfoViewDelegate {
     func restartButtonTapped() {
         gameControl.restartGame()
         scorerLabel.value = 0
+        levelLabel.text = "\(gameControl.level.currentLevel)"
         answer = false
         setQuestionPair()
         hideInfoView()
