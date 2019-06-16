@@ -14,6 +14,10 @@
 		AA10B31022B67F4300272D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA10B30E22B67F4300272D45 /* LaunchScreen.storyboard */; };
 		AA10B31B22B67F4300272D45 /* WordPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B31A22B67F4300272D45 /* WordPlayTests.swift */; };
 		AA10B32622B67F4300272D45 /* WordPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B32522B67F4300272D45 /* WordPlayUITests.swift */; };
+		AA10B33822B6804F00272D45 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = AA10B33722B6804F00272D45 /* words.json */; };
+		AA10B33A22B680E100272D45 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33922B680E100272D45 /* GameController.swift */; };
+		AA10B33C22B6815100272D45 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33B22B6815100272D45 /* Level.swift */; };
+		AA10B33E22B681BA00272D45 /* WordSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B33D22B681BA00272D45 /* WordSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AA10B32122B67F4300272D45 /* WordPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA10B32522B67F4300272D45 /* WordPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPlayUITests.swift; sourceTree = "<group>"; };
 		AA10B32722B67F4300272D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA10B33722B6804F00272D45 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		AA10B33922B680E100272D45 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		AA10B33B22B6815100272D45 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		AA10B33D22B681BA00272D45 /* WordSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		AA10B30422B67F4200272D45 /* WordPlay */ = {
 			isa = PBXGroup;
 			children = (
+				AA10B33622B6801100272D45 /* Resources */,
+				AA10B33522B67FFC00272D45 /* Models */,
+				AA10B33422B67FE700272D45 /* Controller */,
+				AA10B33322B67FDA00272D45 /* Views */,
 				AA10B30522B67F4200272D45 /* AppDelegate.swift */,
 				AA10B30722B67F4200272D45 /* ViewController.swift */,
 				AA10B30922B67F4200272D45 /* Main.storyboard */,
@@ -123,6 +135,38 @@
 				AA10B32722B67F4300272D45 /* Info.plist */,
 			);
 			path = WordPlayUITests;
+			sourceTree = "<group>";
+		};
+		AA10B33322B67FDA00272D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA10B33422B67FE700272D45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA10B33922B680E100272D45 /* GameController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA10B33522B67FFC00272D45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA10B33B22B6815100272D45 /* Level.swift */,
+				AA10B33D22B681BA00272D45 /* WordSet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA10B33622B6801100272D45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA10B33722B6804F00272D45 /* words.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA10B31022B67F4300272D45 /* LaunchScreen.storyboard in Resources */,
+				AA10B33822B6804F00272D45 /* words.json in Resources */,
 				AA10B30D22B67F4300272D45 /* Assets.xcassets in Resources */,
 				AA10B30B22B67F4200272D45 /* Main.storyboard in Resources */,
 			);
@@ -257,7 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA10B30822B67F4200272D45 /* ViewController.swift in Sources */,
+				AA10B33A22B680E100272D45 /* GameController.swift in Sources */,
+				AA10B33C22B6815100272D45 /* Level.swift in Sources */,
 				AA10B30622B67F4200272D45 /* AppDelegate.swift in Sources */,
+				AA10B33E22B681BA00272D45 /* WordSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
