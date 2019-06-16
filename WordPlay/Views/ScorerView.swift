@@ -20,7 +20,7 @@ class ScorerView:UILabel{
     private var timer: Timer? = nil
     
     required init(coder aDecoder:NSCoder) {
-        fatalError("use init(font:frame:")
+        super.init(coder: aDecoder)!
     }
     
     override init(frame:CGRect) {

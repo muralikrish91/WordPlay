@@ -22,6 +22,14 @@
 		AA10B34222B6855600272D45 /* ScorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B34122B6855600272D45 /* ScorerView.swift */; };
 		AA10B34522B68B3D00272D45 /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34422B68B3D00272D45 /* Comic_Andy.ttf */; };
 		AA10B34722B68E6300272D45 /* Pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34622B68E6300272D45 /* Pattern.png */; };
+		AA10B34E22B6992100272D45 /* negative-vote.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34822B6992000272D45 /* negative-vote.png */; };
+		AA10B34F22B6992100272D45 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34922B6992000272D45 /* pause.png */; };
+		AA10B35022B6992100272D45 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34A22B6992000272D45 /* play-button.png */; };
+		AA10B35122B6992100272D45 /* money-bag.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34B22B6992100272D45 /* money-bag.png */; };
+		AA10B35222B6992100272D45 /* positive-vote.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34C22B6992100272D45 /* positive-vote.png */; };
+		AA10B35322B6992100272D45 /* level.png in Resources */ = {isa = PBXBuildFile; fileRef = AA10B34D22B6992100272D45 /* level.png */; };
+		AA10B35522B699D900272D45 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10B35422B699D900272D45 /* InfoView.swift */; };
+		AA10B35722B699F900272D45 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA10B35622B699F900272D45 /* InfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,14 @@
 		AA10B34122B6855600272D45 /* ScorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorerView.swift; sourceTree = "<group>"; };
 		AA10B34422B68B3D00272D45 /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comic_Andy.ttf; sourceTree = "<group>"; };
 		AA10B34622B68E6300272D45 /* Pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pattern.png; sourceTree = "<group>"; };
+		AA10B34822B6992000272D45 /* negative-vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "negative-vote.png"; sourceTree = "<group>"; };
+		AA10B34922B6992000272D45 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		AA10B34A22B6992000272D45 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		AA10B34B22B6992100272D45 /* money-bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money-bag.png"; sourceTree = "<group>"; };
+		AA10B34C22B6992100272D45 /* positive-vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "positive-vote.png"; sourceTree = "<group>"; };
+		AA10B34D22B6992100272D45 /* level.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level.png; sourceTree = "<group>"; };
+		AA10B35422B699D900272D45 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		AA10B35622B699F900272D45 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +166,8 @@
 			children = (
 				AA10B33F22B6853C00272D45 /* TimerView.swift */,
 				AA10B34122B6855600272D45 /* ScorerView.swift */,
+				AA10B35422B699D900272D45 /* InfoView.swift */,
+				AA10B35622B699F900272D45 /* InfoView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +202,12 @@
 		AA10B34322B68AFF00272D45 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AA10B34D22B6992100272D45 /* level.png */,
+				AA10B34B22B6992100272D45 /* money-bag.png */,
+				AA10B34822B6992000272D45 /* negative-vote.png */,
+				AA10B34922B6992000272D45 /* pause.png */,
+				AA10B34A22B6992000272D45 /* play-button.png */,
+				AA10B34C22B6992100272D45 /* positive-vote.png */,
 				AA10B34622B68E6300272D45 /* Pattern.png */,
 			);
 			path = Images;
@@ -295,7 +319,14 @@
 			files = (
 				AA10B31022B67F4300272D45 /* LaunchScreen.storyboard in Resources */,
 				AA10B33822B6804F00272D45 /* words.json in Resources */,
+				AA10B34F22B6992100272D45 /* pause.png in Resources */,
+				AA10B35122B6992100272D45 /* money-bag.png in Resources */,
+				AA10B35022B6992100272D45 /* play-button.png in Resources */,
+				AA10B34E22B6992100272D45 /* negative-vote.png in Resources */,
+				AA10B35222B6992100272D45 /* positive-vote.png in Resources */,
 				AA10B34722B68E6300272D45 /* Pattern.png in Resources */,
+				AA10B35722B699F900272D45 /* InfoView.xib in Resources */,
+				AA10B35322B6992100272D45 /* level.png in Resources */,
 				AA10B30D22B67F4300272D45 /* Assets.xcassets in Resources */,
 				AA10B30B22B67F4200272D45 /* Main.storyboard in Resources */,
 				AA10B34522B68B3D00272D45 /* Comic_Andy.ttf in Resources */,
@@ -323,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10B35522B699D900272D45 /* InfoView.swift in Sources */,
 				AA10B34022B6853C00272D45 /* TimerView.swift in Sources */,
 				AA10B30822B67F4200272D45 /* ViewController.swift in Sources */,
 				AA10B34222B6855600272D45 /* ScorerView.swift in Sources */,

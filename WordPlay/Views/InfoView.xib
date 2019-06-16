@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoView" customModule="WordPlay" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="PNp-Uj-h4O" id="jWG-FM-mHb"/>
+                <outlet property="infoLabel" destination="7uj-Wi-cI9" id="Mgh-fh-AGU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PNp-Uj-h4O">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSK-ah-ijp">
+                    <rect key="frame" x="166.5" y="65" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="7lZ-an-yns"/>
+                        <constraint firstAttribute="height" constant="64" id="GdQ-9V-DCk"/>
+                    </constraints>
+                    <state key="normal" image="play-button.png"/>
+                    <connections>
+                        <action selector="infoPlayTapped:" destination="-1" eventType="touchUpInside" id="iLA-0C-6pF"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uj-Wi-cI9">
+                    <rect key="frame" x="20" y="15" width="357" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="R5Z-GA-s0E"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="27"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe right for YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snD-zj-11m">
+                    <rect key="frame" x="133" y="137" width="131" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left for NO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xx6-Bn-lqI">
+                    <rect key="frame" x="141" y="162.5" width="115" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.29354216150000001" green="0.63337920979999995" blue="0.3866016471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xx6-Bn-lqI" firstAttribute="top" secondItem="snD-zj-11m" secondAttribute="bottom" constant="8" id="Dws-1X-yUk"/>
+                <constraint firstItem="7uj-Wi-cI9" firstAttribute="top" secondItem="wk8-Jo-ImB" secondAttribute="top" constant="15" id="Mip-9f-n4B"/>
+                <constraint firstItem="7uj-Wi-cI9" firstAttribute="leading" secondItem="wk8-Jo-ImB" secondAttribute="leading" constant="20" id="Ss6-Ad-OJ1"/>
+                <constraint firstItem="GSK-ah-ijp" firstAttribute="centerX" secondItem="PNp-Uj-h4O" secondAttribute="centerX" id="TeB-IT-4Gv"/>
+                <constraint firstItem="snD-zj-11m" firstAttribute="centerX" secondItem="PNp-Uj-h4O" secondAttribute="centerX" id="ekZ-Uk-4se"/>
+                <constraint firstItem="wk8-Jo-ImB" firstAttribute="trailing" secondItem="7uj-Wi-cI9" secondAttribute="trailing" constant="20" id="iij-It-oFa"/>
+                <constraint firstItem="snD-zj-11m" firstAttribute="top" secondItem="GSK-ah-ijp" secondAttribute="bottom" constant="8" id="kqJ-Hz-JW2"/>
+                <constraint firstItem="GSK-ah-ijp" firstAttribute="top" secondItem="7uj-Wi-cI9" secondAttribute="bottom" constant="10" id="mCe-QE-ban"/>
+                <constraint firstItem="xx6-Bn-lqI" firstAttribute="centerX" secondItem="PNp-Uj-h4O" secondAttribute="centerX" id="nFE-1B-dQZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="wk8-Jo-ImB"/>
+            <point key="canvasLocation" x="93.599999999999994" y="-65.667166416791616"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="play-button.png" width="64" height="64"/>
+    </resources>
+</document>

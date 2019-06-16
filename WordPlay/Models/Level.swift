@@ -11,7 +11,8 @@ import Foundation
 class Level {
     let pointsArray = [10,20,30]
     let timeArray = [10,8,6]
-    var currentLevel:Int = 0
+    let wrongAnswer = [3,2,1]
+    var currentLevel:Int = 1
     var currentPoints:Int!
     var currentTimeInterval:Int!
     init(level:Int) {
@@ -20,8 +21,12 @@ class Level {
     
     func setLevel(level:Int){
         currentLevel = level
-        currentTimeInterval = timeArray[currentLevel]
-        currentPoints = pointsArray[currentLevel]
+        currentTimeInterval = timeArray[currentLevel-1]
+        currentPoints = pointsArray[currentLevel-1]
+    }
+    
+    func getWrongAnswerCount() -> Int{
+        return wrongAnswer[currentLevel-1]
     }
     
 }
